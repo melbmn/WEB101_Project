@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Climate Justice</title> <!-- change tab name -->
+  <link href="reset.css" rel="stylesheet" type="text/css" />
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="reset-webview.css" rel="stylesheet" type="text/css" />
+  
+</head>
+
+<body>
+  <!-- header: navbar, header image -->
+  <header-container>
+    <nav>
+      <ul">
+        <li><a id = "nav-text" class = "special-hover" href="#aabout">About</a></li>
+        <li><a id = "nav-text" class = "special-hover" href="#asix-pillars">Six Pillars</a></li>
+        <li><a id = "nav-text" class = "special-hover" href="#amore-info">More Information</a></li>
+        <li><a id = "nav-text" class = "special-hover" href="#apetition">Petition</a></li>
+        <li> <button id = "theme-button">Toggle Dark Mode</button>           </li>
+      </ul>
+    </nav>
+
+    <div class = "container">
+      <img src="header_image_A.png" alt="Change beyond the environment" class = "header-image">
+      <figure>
+        <h1>Change beyond the environment</h1>
+        <p>Linking human rights with development and climate action</p>
+       <!-- <button>Button1</button>
+        <button>Button2</button>
+        -->
+      </figure>
+    </div>
+  </header-container>
+  <!-- header -->
+
+  <!-- sections: About, Six Pillars, More Stories, .. -->
+  <h1 id = "aabout">About</h1>
+  <section class = "about revealable">
+    <figure>
+      <h2>What is climate justice?</h2>
+      <p>Climate Justice is a movement that acknowledges how climate change can have differing social, economic, public health, and other adverse impacts on underprivileged populations.</p>
+    </figure>
+    <img src="cj_2.jpg" alt = "people rallying and protesting for climate justice" class = "section-image">
+  </section>
+
+  <h1 id = "asix-pillars">The Six Pillars</h1>
+  <section class = "six-pillars revealable">
+    <h2>There are six pillars to climate justice:</h3>
+    <ol>
+      <li>Just Transition</li>
+      <li>Social, Racial, and Environmental Justice</li>
+      <li>Indigenous Climate Action</li>
+      <li>Community Resilience and Adaptation</li>
+      <li>Natural Climate Solutions</li>
+      <li>Climate Education and Engagement</li>
+    </ol>
+  </section>
+
+  <h1 id = "amore-info">More Information</h1>
+  <section class = "more-info revealable">
+    <p>Click on the links below to read more about climate justice.</p>
+    <ul class = "square-bullet">
+      <li> <a href=https://centerclimatejustice.universityofcalifornia.edu/what-is-climate-justice/>What is Climate Justice - Univeristy of California</a> </li>
+      <li> <a href=https://yaleclimateconnections.org/2020/07/what-is-climate-justice/>What is 'climate justice'? - Yale</a> </li>
+    </ul>
+
+    <h3>What is Climate Justice? - GlobalWitness</h3>
+    <p>Seemi Joshi, director of campaigns of Global Witness, explains how the people most affected by the climate crisis did the least to cause it, and are least resilient to the upheavals which it brings.</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/RNEZBreo4gM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  </section>
+
+  <h1 id ="apetition">Petition</h1>
+  <div class="petition" id="petition">
+
+    <h2>Sign Our Petition 📢</h2>
+    <div class="petition-container">
+
+      <div class="petition-para">
+        <p>Envision a world in which fairness, equity, and ecological rootedness are core values. Awareness about climate justice and alliances won significant victories against polluting and extractive industries. Help support local alternatives that center traditional ecological and cultural knowledge and create a pathway for a regenerative future by signing the petition below.</p>
+        </div>
+      
+      <div id="signatures">
+        <p>🖊️ Melody from Houston supports this.</p>
+        <p>🖊️ Mel from the Quads supports this.</p>
+        <p>🖊️ Emily from Cypress supports this.</p>
+        <p id = "counter">🖊️ 3 people have signed this petition and support this cause.</p>
+      </div>
+      
+    </div>
+
+  <!--- Sign Petition Form --->
+  <form id="sign-petition" title="sign-petition">
+    <!-- inputs go here -->
+    <label for="name">Name:</label>
+    <input id="name">
+    <label for="hometown">Hometown:</label>
+    <input id="hometown">
+    <label for="email">Email:</label>
+    <input id="email">
+  </form>
+
+   <!--- Sign Now Button --->
+  <button id="sign-now-button">Sign Now</button>
+
+</div>
+  <!-- sections: About, Six Pillars, More Stories, .. -->
+
+  <!-- Modal -->
+<div id="thanks-modal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div id="modal-text-container">
+      <!-- text here -->
+      <p id="thanks-modal-content">Thanks for signing the petition!</p>
+      <!-- button here (stretch feature) -->
+      <button id = 'closeButt'>Close</button>
+    </div>
+    <!-- image here-->
+    <img src="hooray.png" alt = "Thanks for signing the petition!" class = "header-image" id = 'modal-image'>
+  </div>
+    
+</div>
+  <!-- Modal -->
+  
+
+  <!-- footer -->
+  <div class = "footer">
+    <h3>To get involved, click <a href=https://climatejusticealliance.org/get-involved/>here</a></h3>
+  </div>
+  <!-- footer -->
+  
+
+  <!-- ignore -->
+  <script src="script.js"></script> <!-- links to js -->
+  <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
+  <!-- ignore -->
+  
+</body>
+
+</html>
