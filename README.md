@@ -1,5 +1,8 @@
 # WEB101_Project - Climate Justice :earth_americas:
-*CodePath WEB101 Spring 2023*
+*Spring 2023*
+
+CodePath WEB101
+
 Melody Nguyen
 
 ## About
